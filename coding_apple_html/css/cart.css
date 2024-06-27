@@ -1,0 +1,115 @@
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+}
+
+.background {
+    background-color: rgb(180, 226, 241);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front-ground {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.title {
+    margin: 20px;
+    padding: 10px;
+    color: rgb(43, 106, 224);
+    font-size: 20px;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse ;
+    background-color: white;
+    border-style: hidden;
+}
+
+th {
+    font-size: 30px;
+    color:  rgb(43, 106, 224);
+}
+
+tr {
+    border-bottom: 3px solid rgb(43, 106, 224);
+}
+
+td {
+    padding: 20px;
+}
+
+.t1 {
+    margin: 20px;
+    padding-left: 200px;
+    text-align: left;
+}
+
+.t2 {
+    text-align: center;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+img {
+    width: 180px;
+}
+
+.hyper {
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.button {
+    display: block;
+    margin-left: 720px;
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+/* .button:hover {
+    background-color: rgb(106, 20, 204);
+}
+
+.button:focus {
+    background-color: gray
+}
+
+.button:active {
+    background-color: aliceblue;
+    border: 2px solid  cornflowerblue;
+}
+
+.input-test {
+    font-size: 20xp;
+}
+
+.input-test:focus {
+    border: 2px solid cornflowerblue;
+}
+
+.custom-link{
+    text-decoration: none;
+}
+.custom-link:link {
+    color: violet;
+}
+.custom-link:visited {
+    color:black;
+} */

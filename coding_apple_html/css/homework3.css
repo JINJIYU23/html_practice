@@ -1,0 +1,38 @@
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-container > div{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.box-container i {
+    background-color: darkseagreen;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;  
+    /* -> 찌그러지지 않을 수 있도록  */
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (max-width : 1200px) { 
+    .box-container > div{ 
+        width: 40%;
+    } 
+  } 
+
+
+@media screen and (max-width : 768px) { 
+    .box-container > div{ 
+        width: 80%;
+    } 
+  } 
